@@ -1,0 +1,74 @@
+.detail-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.play-dice {
+    text-align: center;
+}
+
+
+mat-form-field {
+    width: 320px;
+}
+.center {
+  text-align: center;
+}
+.result {
+  font-size: 10em;
+}
+button {
+  min-width: 65px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100vh;
+}
+
+.roll {
+  margin-top: 20px;
+}
+
+.rank {
+  margin-top: 20px;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.scores {
+  text-align: center;
+  padding-left: 33%;
+}
+
+.button-play {
+  width: 320px;
+  border-radius: 50px;
+}
